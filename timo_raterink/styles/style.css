@@ -1,0 +1,67 @@
+/*
+Theme Name: Fox Theme by Feedback Fox
+Author: Timo Raterink
+Description: Portfolio template custom-made for my own portfolio.
+Version: 0.0.1
+Tags:
+*/
+
+
+/* Fonts */
+
+@font-face {
+  font-family: "akzidenzlight";
+  src: url('../resources/fonts/akzidenzlight.woff2')format('woff2');
+}
+
+@font-face {
+  font-family: "akzidenzmedium";
+  src: url('../resources/fonts/akzidenzmedium.woff2')format('woff2');
+}
+
+@font-face {
+  font-family: "josefinsans";
+  src: url('../resources/fonts/josefinsans.woff2')format('woff2');
+}
+
+@font-face {
+  font-family: "fjallaone";
+  src: url('../resources/fonts/fjallaone.woff2')format('woff2');
+}
+
+@font-face {
+  font-family: "robotothin";
+  src: url('../resources/fonts/robotothin/robotothin.woff2')format('woff2'), url('resources/fonts/robotothin/robotothin.ttf')format('truetype'), url('resources/fonts/robotothin/robotothin.woff')format('woff');
+}
+
+* {
+     /*border: 1px solid;*/
+}
+
+/*Navbar*/
+
+
+
+body, html {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  padding: 0 12.5vw 0 12.5vw;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: akzidenzmedium;
+  text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+      padding: 0;
+}
