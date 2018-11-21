@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>horizontal smooth scrolling</title>
+    <style>
+        html{
+            font-family: sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        nav{
+            position: fixed;
+            height: 100vh;
+            display: grid;
+            align-content: center;
+        }
+
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a{
+            color: #ccc;
+            text-decoration: none;
+            background: #333;
+            display: block;
+            padding: .5em 2em .5em 1em;
+            margin: .5em 0;
+            border-left: 5px solid transparent;
+            border-radius: 0 2em 2em 0;
+        }
+
+        nav a:hover{
+            color: #fff;
+            background: #000;
+            border-left: 5px solid #fff;
+        }
+
+
+
+        section{
+            min-height: 100vh;
+            padding: 2em 2em 2em 9em;
+            display: grid;
+            align-content: center;
+            justify-content: center;
+        }
+
+        a{
+            color: #fff;
+        }
+        a:hover{text-decoration: none;}
+
+        #rood{background: red;}
+        #groen{background: green;}
+        #blauw{background: blue;}
+        #oranje{background: orange;}
+        #geel{background: yellow; color: #333333;}
+
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#rood">rood</a></li>
+        <li><a href="#groen">groen</a></li>
+        <li><a href="#blauw">bauw</a></li>
+        <li><a href="#oranje">oranje</a></li>
+        <li><a href="#geel">geel</a></li>
+    </ul>
+</nav>
+<main>
+    <section id="rood">
+        <h2>rood verticaal</h2>
+        <p>
+           Timothy <br>
+            <a href="../index.html">Terug naar de homepage</a>
+
+        </p>
+    </section>
+    <section id="groen">
+        <H2>groen</H2>
+        <p> Falorni <br><a href="../index.html">Terug naar de homepage</a>
+        </p>
+    </section>
+    <section id="blauw">
+        <h2>blauw</h2>
+        <p> the <br> <a href="../index.html">Terug naar de homepage</a>
+        </p>
+    </section>
+    <section id="oranje">
+        <h2>oranje</h2>
+        <p>  Strongest <br> <a href="../index.html">Terug naar de homepage</a>
+        </p>
+    </section>
+    <section id="geel">
+        <h2>geel</h2>
+        <p>  king br <a href="../index.html">Terug naar de homepage</a></p>
+    </section>
+</main>
+</body>
+</html>
