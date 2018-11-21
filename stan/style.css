@@ -1,0 +1,18 @@
+#plaatjes{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+img{
+    width: 10vw;
+    padding: 5vw;
+}
+
+body{
+    text-align: center;
+}
+
+#haarpiraat{
+    width: 100vw;
+}
